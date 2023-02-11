@@ -43,6 +43,7 @@ namespace LNew.Pages
                 new Sorting() {Id=5, Name="Номер цеха по убыванию"},
                 new Sorting() {Id=6, Name="Номер цеха по возростанию"},
             };
+
             cbSort.ItemsSource = sortings;
             cbSort.DisplayMemberPath = "Name";
             this.DataContext = this;
