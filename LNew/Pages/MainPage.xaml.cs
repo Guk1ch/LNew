@@ -29,5 +29,20 @@ namespace LNew.Pages
         {
 
         }
+
+        private void btnADD_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnBack_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnNext_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

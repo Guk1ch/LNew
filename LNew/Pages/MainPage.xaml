@@ -80,5 +80,9 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
+        <Button x:Name="btnADD" Content="Добавить" Click="btnADD_Click" Grid.Column="0" MinWidth="90" Grid.ColumnSpan="2" HorizontalAlignment="Center" Grid.Row="6"/>
+        <Button x:Name="btnBack" Content="Назад" Click="btnBack_Click" Grid.Column="3" Grid.Row="6"/>
+        <Button x:Name="btnNext" Content="Вперед" Click="btnNext_Click" Grid.Column="6" Grid.Row="6"/>
+        <TextBlock Text="{Binding}"/>
     </Grid>
 </Page>
